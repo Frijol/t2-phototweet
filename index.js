@@ -1,7 +1,3 @@
-var fs = require('fs');
-var path = require('path');
-var filepath = 'myImage.jpg';
-
 // Set up the camera
 var av = require('tessel-av');
 var camera = new av.Camera();
