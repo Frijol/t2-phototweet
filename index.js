@@ -1,3 +1,5 @@
+var statusMessage = 'Tweeting from my #tessel camera! Make one yourself at https://github.com/Frijol/t2-phototweet';
+
 // Set up the camera
 var av = require('tessel-av');
 var camera = new av.Camera();
@@ -25,7 +27,7 @@ capture.on('data', function(data) {
 
       // Let's tweet it
       var status = {
-        status: 'I am a tweet',
+        status: statusMessage,
         media_ids: media.media_id_string // Pass the media id string
       };
 

@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "www.github.com/tessel/t2-cli",
+  "repository": "https://github.com/Frijol/t2-phototweet",
   "keywords": [
     "Tessel",
     "Tessel 2",
@@ -17,6 +17,6 @@
   "license": "MIT",
   "dependencies": {
     "tessel-av": "^0.7.0",
-    "twit": "^2.2.4",
+    "twit": "^2.2.4"
   }
 }
