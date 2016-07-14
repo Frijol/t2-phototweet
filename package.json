@@ -1,0 +1,22 @@
+{
+  "name": "t2-phototweet",
+  "author": "Kelsey Breseman",
+  "version": "0.0.1",
+  "description": "Tessel 2-based camera that tweets an image.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel",
+    "Tessel 2",
+    "Twitter",
+    "Camera"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "tessel-av": "^0.7.0",
+    "twit": "^2.2.4",
+  }
+}
