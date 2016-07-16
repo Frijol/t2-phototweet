@@ -22,9 +22,7 @@ capture.on('data', function(data) {
     if (error) {
       console.log(error);
     } else {
-      // If successful, a media object will be returned.
-      console.log(media);
-
+      // If successful, a media object (var "media") will be returned.
       // Let's tweet it
       var status = {
         status: statusMessage,
